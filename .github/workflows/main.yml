@@ -7,6 +7,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Deploy to Cloudflare Workers with Wrangler
-        uses: cloudflare/wrangler-action@v3
+        uses: Leetfs/wrangler-action@v1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
