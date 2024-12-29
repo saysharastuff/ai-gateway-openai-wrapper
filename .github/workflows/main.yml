@@ -10,4 +10,4 @@ jobs:
         uses: cloudflare/wrangler-action@v3.13.0
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          packageManager: pnpm
+          packageManager: npm
